@@ -1,8 +1,8 @@
 # Cask template for the personal tap (calvinyz/homebrew-tap). .github/workflows/homebrew.yml
 # fills in the version and checksum and pushes it there when a release is published.
 cask "corollary" do
-  version "0.1.0"
-  sha256 "bdb3f2073382ca9a0efe21087bf153f3408ed0ee93143c1680db947413a9e2ad"
+  version "0.1.1"
+  sha256 "81bb29a46a0469d12420b3cea055fcc801aa4d7da7340e2e7018af39eba6416d"
 
   url "https://github.com/calvinyz/corollary/releases/download/v#{version}/Corollary_#{version}_aarch64.dmg"
   name "Corollary"
